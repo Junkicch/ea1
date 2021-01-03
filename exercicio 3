@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+ main() {
+   int w,x,y,z;
+   
+   //w = c;
+   printf("\ncoloque a temperatura em Celcius:");
+   scanf("%d",&w); //IN
+
+   x = 9;
+   y = 160;
+   z = 5;
+    
+    int F = (x*w+y)/z;
+    printf("conversão para Fahrenheit: %d", F);//OUT
+    return 0;
+ }

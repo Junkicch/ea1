@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+ main() {
+  int x,y;
+  const float a=3.14159;
+
+  //x = RAIO;
+  printf("\n digite o RAIO da circuferencia: ");
+  scanf("%d",&x); //IN
+  
+  y = x;
+
+  int AREA = a*(x*y);
+  printf("AREA aproximada é : %d", AREA); // OUT
+  return 0;
+}

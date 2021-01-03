@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+ main() {
+   int x,y,z;
+  
+   //x = COMPRIMENTO;
+   printf("\ncoloque o Comprimento:");
+   scanf("%d",&x); //IN
+
+   //y = LARGURA;
+   printf("\ncoloque a Largura:");
+   scanf("%d",&y); //IN
+
+   //z = ALTURA;
+   printf("\ncoloque a Altura:");
+   scanf("%d",&z); //IN
+    
+    int VOLUME = x*y*z;
+    printf("volume do objeto: %d", VOLUME);//OUT
+    return 0;
+ }
